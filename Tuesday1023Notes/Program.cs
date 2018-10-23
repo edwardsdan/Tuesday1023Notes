@@ -14,8 +14,7 @@ namespace Tuesday1023Notes
     }
 }
 
-//Object Oriented Programming Concepts
-
+// Object Oriented Programming Concepts
 //  Polymorphism:
 //        The ability for methods to be overridden in child classes and
 //        methods of the same name to be overloaded
@@ -54,14 +53,20 @@ namespace Tuesday1023Notes
 //	    can be used to hold information for children classes
 //	    CANNOT BE USED TO CREATE AN OBJECT
 //	    abstract methods have no body(code to run) and cannot be private
-//	    if a class has any abstract methods, the class itself must be abstract ----------- SEE Shape.cs FOR EXAMPLE                 
-//            
+//	    if a class has any abstract methods, the class itself must be abstract
+//      ----------- SEE Shape.cs FOR EXAMPLE -----------
+//            ADVANTAGES:
+//              Can use instance and static variables, as well as constants
+//              Can define regular methods that contain code (concrete methods) and abstract methods
+//              Can define fields
+
 //  Interfaces:
 //      special type of coding element that provides many advantages of multiple inheritance
 //      defines a set of public methods that can be implemented by a class
-//      ********a class that implements an interface must provide an implementation for each method defined by the interface********
-//      INTERFACE SYNTAX: ------------ Ask Cheri for repl.it link for interface example
-//         interface IShape
-//         {
-//             void GetArea();
-//         }
+//      ********A CLASS THAT IMPLEMENTS AN INTERFACE MUST PROVIDE AN IMPLEMENTATION FOR EACH METHOD DEFINED BY THE INTERFACE********
+//      can inherit from one or more other interfaces
+//      ********CANNOT INHERIT FROM A CLASS********
+//      ----------- Ask Cheri for repl.it example -----------
+//            ADVANTAGES:
+//              A class can implement (inherit) multiple interfaces
+//              Any object created from a class that implements an interface can be used wherever the interface is accepted
