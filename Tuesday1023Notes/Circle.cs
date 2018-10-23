@@ -8,7 +8,7 @@ namespace Tuesday1023Notes
 {
     class Circle : Shape    // inheritance (child class), encapsulation
     {
-        public double Area()    // inheritance because it gets it from the parent class
+        public double Area()    // inheritance, it gets it from the parent class
         {
             return 0;
         }
